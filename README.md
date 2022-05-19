@@ -8,7 +8,7 @@ It was imperative to breakdown the sequence of events. Once it was determined wh
 ![screenshot JavaScript code](assets/screenshot.jpg)
 
 ## Notes
-As I was new to this, I received help from TA's Cody and Manan. They were both amazing and helpful with explaining things. Cody helped me with the code from scratch. Once completed and our session ended I noticed an issue that I was unable to resolve. Manan helped me resolve this while also making me think. He also pointed out an error and left my on my own to resolve. I am proud to say I was able to fix this on my own. I also learned that dumbing down my JavaScript code in a way that anyone could read it will help me in the future.
+As I was new to this, I received help from TA's Cody and Manan. They were both amazing and helpful with explaining things. Cody helped me with the code from scratch. Once completed and our session ended I noticed an issue that I was unable to resolve. Manan helped me resolve this while also making me think. He also pointed out an error and left me on my own to resolve. I am proud to say that I was able to fix this by myself. I also learned that dumbing down my JavaScript code in a way that anyone could read it will help me in the future.
 
 ## Final Product
 [Click here to view](https://jessicamdittrich.github.io/CHG-JD051922)
