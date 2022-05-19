@@ -16,8 +16,15 @@ function writePassword() {
 }
 
 function generatePassword() {
+  collectCharacters = "";
+  passwordCollect = "";
   var passwordLength = parseInt(window.prompt("How long would you like your password to be?"));
   if (passwordLength >= 8 && passwordLength <= 128) {
+  } else {
+    alert("Please make sure your password is between 8-128 characters");
+    return generatePassword();
+  }
+
     var upper = confirm("Do you want uppercase characters?");
     var lower = confirm("Do you want lowercase characters");
     var special = confirm("Do you want special characters");
@@ -25,8 +32,7 @@ function generatePassword() {
 
       if (upper) {
         collectCharacters += getRandomUpper;
-        //console.log(collectCharacters);
-      } 
+      }
       if (lower) {
         collectCharacters += getRandomLower;
       }
@@ -36,18 +42,14 @@ function generatePassword() {
       if (numbers) {
         collectCharacters += getRandomNumber;
       }
-
+      console.log(collectCharacters);
       for (var i = 0; i < passwordLength; i++){
         var value = Math.floor(Math.random() * collectCharacters.length);
         passwordCollect += collectCharacters[value] //Pulling the new random variables x10 within this loop
         console.log(value);
       }
-      console.log(passwordCollect);
-      return passwordCollect; //Forces passwork collect
+      return passwordCollect; //Forces password collect
 
-  } else {
-    alert("Please make sure your password is between 8-128 characters");
-  }
 }
 
 // Add event listener to generate button
